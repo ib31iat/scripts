@@ -1,0 +1,2 @@
+#!/bin/bash
+toolbox run --container utils code --list-extensions > $HOME/.code_extensions
