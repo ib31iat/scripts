@@ -1,2 +1,3 @@
 #!/bin/bash
+# Copied from: https://gist.github.com/johanmcos/be7c235ef5deabd1d1d745e674b561a0
 flatpak list --app --columns=origin --columns=application | awk '{print "flatpak install " $1,$2 " -y"}' > $HOME/flatpaks.sh
