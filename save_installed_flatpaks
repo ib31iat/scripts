@@ -1,0 +1,2 @@
+#!/bin/bash
+flatpak list --columns=name,description,application,ref,origin > $HOME/.installed_flatpaks
